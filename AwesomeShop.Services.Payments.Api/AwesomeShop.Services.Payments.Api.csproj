@@ -18,4 +18,14 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Controllers\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Services.Payments.Application\AwesomeShop.Services.Payments.Application.csproj" />
+      <ProjectReference Include="..\AwesomeShop.Services.Payments.Core\AwesomeShop.Services.Payments.Core.csproj" />
+      <ProjectReference Include="..\AwesomeShop.Services.Payments.Infrastructure\AwesomeShop.Services.Payments.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

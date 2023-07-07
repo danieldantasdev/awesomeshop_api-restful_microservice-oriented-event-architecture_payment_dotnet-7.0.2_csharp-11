@@ -6,4 +6,14 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.0-preview.5.23280.8" />
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Services.Payments.Core\AwesomeShop.Services.Payments.Core.csproj" />
+      <ProjectReference Include="..\AwesomeShop.Services.Payments.Infrastructure\AwesomeShop.Services.Payments.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
